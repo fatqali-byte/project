@@ -57,6 +57,14 @@ body {
 .nav-menu a:hover {
     color: #f5c45b
 }
+.Ex_file {
+    display: flex;
+    list-style: none;
+    gap: 2rem
+}
+.Ex_file a:hover {
+    color: #f5c45b
+}
 
 /* قسم البطل */
 .hero {
