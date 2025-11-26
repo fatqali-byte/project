@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>اتصل بنا | متجر مارب للإلكترونيات</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Tajawal", sans-serif;
+        background: #f8f9fa;
+        color: #333;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+      .navbar {
+        background: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+      }
+      .logo {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #f5c45b;
+        text-decoration: none;
+      }
+      .nav-menu {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+      }
+      .nav-menu a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 600;
+        transition: color 0.3s;
+      }
+      .nav-menu a:hover {
+        color: #f5c45b;
+      }
+      .page-section {
+        padding: 4rem 0;
+      }
+      .page-title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color: #f5c45b;
+      }
+      .contact-content {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 3rem;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+      .contact-description {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      .info-card {
+        background: #fffbea;
+        border: 1px solid #f7e6b4;
+        border-radius: 10px;
+        padding: 2rem;
+        margin: 2rem 0;
+      }
+      .info-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid #f7e6b4;
+      }
+      .info-item:last-child {
+        border-bottom: none;
+      }
+      .info-item strong {
+        color: #f5c45b;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        background: #f5c45b;
+        color: #333;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 700;
+        transition: transform 0.3s;
+        text-align: center;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+      }
+      .btn-whatsapp {
+        background: #25d366;
+        color: #fff;
+      }
+      .footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0;
+        margin-top: 4rem;
+      }
+      @media (max-width: 768px) {
+        .nav-container {
+          flex-direction: column;
+          gap: 1rem;
+        }
+        .nav-menu {
+          gap: 1rem;
+        }
+        .contact-content {
+          padding: 2rem;
+        }
+        .page-title {
+          font-size: 2rem;
+        }
+      }
+      @media (max-width: 480px) {
+        .page-section {
+          padding: 2rem 0;
+        }
+        .contact-content {
+          padding: 1.5rem;
+        }
+        .page-title {
+          font-size: 1.5rem;
+        }
+        .info-item {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">⚡ متجر مارب</a>
+        <ul class="nav-menu">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="index.html#products">المنتجات</a></li>
+          <li><a href="about.html">عن المتجر</a></li>
+          <li><a href="contact.html" style="color: #f5c45b">اتصل بنا</a></li>
+          <li><a href="login.html">تسجيل الدخول</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="page-section">
+      <div class="container">
+        <h1 class="page-title">اتصل بنا</h1>
+        <div class="contact-content">
+          <p class="contact-description">
+            نسعد جداً بتواصلك معنا ونسعى لخدمتك بأفضل شكل 💛
+          </p>
+
+          <div class="info-card">
+            <div class="info-item">
+              <div>
+                <strong>الهاتف:</strong>
+                <span>776436389</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div>
+                <strong>المهندس المسؤول:</strong>
+                <span>علي محمد فاتق</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div>
+                <strong>البريد الإلكتروني:</strong>
+                <span>fatqali@gmail.com</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="text-align: center">
+            <a
+              href="https://wa.me/967776436389?text=مرحباً، أريد الاستفسار عن منتج"
+              class="btn btn-whatsapp"
+              >تواصل عبر واتساب</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 متجر مارب للإلكترونيات — في أمان الله ❤️</p>
+      </div>
+    </footer>
+  </body>
+</html>
